@@ -1,18 +1,22 @@
+### Neos
+---  
+### Project Description
+This project consists of a simple Selenium automation script in Java. Due to time constraints, the implementation is basic but functional. The script automates the process of testing the "Join Our Team" section. The **Thread.sleep** method was used only for visual validation to ensure that every step is clearly visible in the recorded video. The video is also attached—please check it out.
 
-<h1>Neos</h1>
-
-<h2>Description</h2>
-Project consists of a simple Java script, didn't have enough time, where user checking one of the sections "Join where team", where he is checking that is section of drop down menu clickable and opening a correct page, also checking the Employee Benefit booklet, if link is clickuble and opening in new window. Final step it is returning to the main page and closing website.
-<br/>
-
-
-<h2>Languages and Utilities Used</h2>
-
-- <b>Java</b> 
-- <b>Seleniumt</b>
-- <b>IntelliJ IDEA</b>
-- <b>Snipping tool - recording</b>
-
-<h2>Environments Used </h2>
-
-- <b>Windows 10</b>
+### 1.Dropdown Menu Test:
+- The user navigates to the **"Join Our Team"** section.
+- Verifies that the dropdown menu is clickable.
+- Confirms that it redirects to the correct pages.
+### 2.Employee Benefit Booklet Test:
+- Checks if the **"Employee Benefit Booklet 2025"** link is clickable.
+- Ensures it opens in a new window.
+### 3.Final Steps:
+- The script returns to the main page.
+- Closes the website. 
+---  
+### Technologies & Tools Used
+- **Programming Language:** Java 
+- **Testing Framework:** Selenium
+- **IDE:** IntelliJ IDEA
+- **Screen Capture Tool:** Snipping Tool (for recording tests)
+- **Operating System:** Windows 10
